@@ -1,0 +1,57 @@
+<!-- JS Assignment 2 - Abdulrahman Zaki -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abdulrahman Zaki" />
+    <title>Quotes App</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.webp" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="styles/all.min.css" />
+    <!-- Template Css File -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="vh-100 d-flex align-items-center justify-content-center">
+    <section class="quote-sec rounded-4 p-4 text-center bg-white shadow-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div>
+              <h3>Quote of the Day</h3>
+              <div class="quote-box">
+                <div class="quote-txt">
+                  <p class="quote lead">
+                    “Press the button below to recieve a random quote!”
+                  </p>
+                </div>
+                <div class="quote-author text-end">
+                  <p class="author-name blockquote-footer mt-2">Author Name</p>
+                </div>
+              </div>
+              <div class="btns-box d-flex justify-content-center">
+                <div class="copy-btn btn btn-warning me-2 mt-3 d-flex align-items-center">
+                  <i class="fa-regular fa-clipboard fa-xl"></i>
+                </div>
+                <button class="quote-btn btn btn-warning mt-3">
+                  New Quote
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <audio id="click" src="audio/click.wav" preload="auto"></audio>
+    <!-- Bootstrap JS -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <!-- Include SweetAlert from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Template JS File -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
